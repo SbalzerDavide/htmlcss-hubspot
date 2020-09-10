@@ -1,5 +1,77 @@
+/* GENERAL */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body{
+  color: #425b76;
+}
+
+.large{
+  padding: 0 15%;
+}
+
+/* HEADER */
+header .top{
+  background: #f5f8fa;
+  height: 100px;
+}
+
+nav{
+  background: white;
+  height: 100px;
+}
+
+/* MAIN */
+/* presentation */
+
+main .presentation{
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  height: 500px;
+}
+
+main .space{
+  background-color: #76dcd0;
+  height: 100px;
+}
+
+
+/* central */
+
+main .central{
+  background: #f5f8fa;
+  height: 500px;
+}
+
+
+
+
+/* results */
+main .results{
+  background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,188,165,1) 51%);
+  height: 300px;
+}
+
+
+
+
+/* invitation */
+main .invitation{
+  background: #f5f8fa;
+  height: 300px;
+
+
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+  background: #33475b;
+  height: 300px;
 }
