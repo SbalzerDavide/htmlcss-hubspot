@@ -182,6 +182,7 @@ main .central .block{
   padding: 50px;
 }
 
+/* left */
 main .central .block img{
   margin: 10px;
   width: 150px;
@@ -189,6 +190,9 @@ main .central .block img{
 
 main .central .block .block-left{
   margin: 20px;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
 }
 
 main .central .block .button{
@@ -196,10 +200,16 @@ main .central .block .button{
   margin: 20px;
 }
 
-main .central .block .block-left{
- width: 30%;
- text-align: center;
+/* right */
+main .central .block .block-right{
+  width: 50%;
+  margin: 20px;
+  background: red;
+  height: 100px;
+  display: inline-block;
 }
+
+
 
 
 main .central .col-contenitor::after{
