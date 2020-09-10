@@ -8,6 +8,7 @@
 body{
   color: #425b76;
   font-family: arial;
+  font-size: 13px;
 }
 
 .large{
@@ -25,6 +26,7 @@ a{
 }
 
 /* HEADER */
+/* top */
 header .top{
   background: #f5f8fa;
   border-bottom: 1px solid #425b76;
@@ -83,14 +85,24 @@ header .top .right{
   float: right;
 }
 
-
-
-
-
-
+/* nav */
 nav{
   background: white;
-  height: 100px;
+}
+
+nav::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav img{
+  float: left;
+}
+nav li{
+  line-height: 30px;
+  float: right;
+  margin: 15px;
 }
 
 /* MAIN */
