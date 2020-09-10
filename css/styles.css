@@ -88,7 +88,7 @@ nav{
   position: relative;
 }
 
-nav::after{
+nav ul::after{
   content: '';
   display: table;
   clear: both;
@@ -138,7 +138,7 @@ main .presentation .left > *{
 
 
 /* space */
-main .space{
+main .empty{
   background-color: #76dcd0;
   height: 100px;
   border-bottom: 2px solid #33475b;
@@ -146,20 +146,41 @@ main .space{
 }
 
 
-/* central */
-
+/* CENTRAL */
 main .central{
   background: #f5f8fa;
-  height: 500px;
+  height: 800px;
+}
+
+/* top-central */
+main .central .block-position{
+  padding: 0 15%;
 }
 
 main .central .top-central{
   text-align: center;
 }
 
+main .central img{
+  width: 20%;
+  margin-top: 40px;
+}
+
+main .central h2{
+  margin: 20px 0;
+}
+
+main .central p{
+  margin: auto;
+  width: 80%;
+}
+
+/* cenral-block */
 main .central .block{
   background: white;
   height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(51,71,91,0.20);
 }
 
 
@@ -170,12 +191,13 @@ main .central .col-contenitor::after{
 }
 
 
-main .central .col{
+main .central .col-contenitor .col{
   width: 25%;
   height: 100px;
   background: white;
   float: left;
-  border: 1px solid black;
+  box-shadow: 0px 0px 10px 0px rgba(51,71,91,0.20);
+  border-radius: 5px;
 }
 
 main .central .space{
@@ -193,7 +215,7 @@ main .central > div{
 /* results */
 main .results{
   background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,188,165,1) 51%);
-  height: 500px;
+  height: 700px;
   color: white;
 }
 
