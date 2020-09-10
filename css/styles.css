@@ -8,7 +8,6 @@
 body{
   color: #425b76;
   font-family: arial;
-  font-size: 13px;
 }
 
 .large{
@@ -21,12 +20,16 @@ li{
 
 a{
   text-decoration: none;
-  color: #425b76;
+  color: white;
 
 }
 
 /* HEADER */
 /* top */
+header{
+  font-size: 13px;
+}
+
 header .top{
   background: #f5f8fa;
   border-bottom: 1px solid #425b76;
@@ -114,12 +117,47 @@ nav li{
 main .presentation{
   background-image: url('../img/jumbotron.png');
   background-size: cover;
-  height: 500px;
+  height: 540px;
+  border-bottom: 2px solid #33475b;
 }
 
+main .presentation .left{
+  width: 50%;
+}
+
+main h1{
+  padding-top: 40px;
+  font-size: 45px;
+}
+
+main .presentation p{
+  /* padding: 20px 0; */
+}
+
+main .presentation .button{
+  border: 2px solid #ff7a59;
+  border-radius: 5px;
+  background: #ff7a59;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+main .presentation .buttom{
+  font-size: 11px;
+}
+
+main .presentation .left > *{
+  margin-bottom: 30px;
+}
+
+
+/* space */
 main .space{
   background-color: #76dcd0;
   height: 100px;
+  border-bottom: 2px solid #33475b;
+
 }
 
 
