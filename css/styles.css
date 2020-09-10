@@ -86,7 +86,7 @@ main .central > div{
 /* results */
 main .results{
   background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,188,165,1) 51%);
-  height: 300px;
+  height: 500px;
   color: white;
 }
 
@@ -103,10 +103,15 @@ main .results .grid{
   content: '';
   display: table;
   clear: both;
+  width: 100%;
 }
 
 main .results .grid .grid-element{
-  
+  width: 25%;
+  height: 150px;
+  background: red;
+  border: 1px solid black;
+  float: left;
 }
 
 
