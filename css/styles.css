@@ -21,9 +21,15 @@ li{
 a{
   text-decoration: none;
   color: white;
-
 }
 
+.button{
+  border: 2px solid #ff7a59;
+  border-radius: 5px;
+  background: #ff7a59;
+  color: white;
+  padding: 10px;
+}
 /* HEADER */
 /* top */
 header{
@@ -67,18 +73,6 @@ header .top li:nth-child(5){
 header .top li:nth-child(5) a{
   color: #ff7a59;
 }
-
-header .top li:nth-child(4){
-  border: 2px solid #ff7a59;
-  border-radius: 5px;
-  background: #ff7a59;
-}
-
-header .top li:nth-child(4) a{
-  color: white;
-}
-
-
 
 header .top .left{
   float: left;
@@ -130,16 +124,7 @@ main h1{
   font-size: 45px;
 }
 
-main .presentation p{
-  /* padding: 20px 0; */
-}
-
 main .presentation .button{
-  border: 2px solid #ff7a59;
-  border-radius: 5px;
-  background: #ff7a59;
-  color: white;
-  padding: 10px;
   display: inline-block;
 }
 
