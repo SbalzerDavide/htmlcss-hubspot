@@ -46,6 +46,40 @@ main .central{
   height: 500px;
 }
 
+main .central .top-central{
+  text-align: center;
+}
+
+main .central .block{
+  background: white;
+  height: 200px;
+}
+
+
+main .central .col-contenitor::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+main .central .col{
+  width: 25%;
+  height: 100px;
+  background: white;
+  float: left;
+  border: 1px solid black;
+}
+
+main .central .space{
+  margin: 0 12.5%;
+}
+
+/* all direct children of section.central have this property */
+main .central > div{
+  margin-bottom: 30px;
+}
+
 
 
 
@@ -53,8 +87,27 @@ main .central{
 main .results{
   background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,188,165,1) 51%);
   height: 300px;
+  color: white;
 }
 
+main .results h2,
+main .results p{
+  text-align: center;
+}
+
+
+/* grid */
+
+
+main .results .grid{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main .results .grid .grid-element{
+  
+}
 
 
 
