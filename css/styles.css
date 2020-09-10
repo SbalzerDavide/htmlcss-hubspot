@@ -88,6 +88,7 @@ header .top .right{
 /* nav */
 nav{
   background: white;
+  position: relative;
 }
 
 nav::after{
@@ -97,7 +98,9 @@ nav::after{
 }
 
 nav img{
-  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 nav li{
   line-height: 30px;
