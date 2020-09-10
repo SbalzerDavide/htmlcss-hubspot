@@ -149,7 +149,6 @@ main .empty{
 /* CENTRAL */
 main .central{
   background: #f5f8fa;
-  height: 800px;
 }
 
 /* top-central */
@@ -178,9 +177,28 @@ main .central p{
 /* cenral-block */
 main .central .block{
   background: white;
-  height: 200px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 0px rgba(51,71,91,0.20);
+  padding: 50px;
+}
+
+main .central .block img{
+  margin: 10px;
+  width: 150px;
+}
+
+main .central .block .block-left{
+  margin: 20px;
+}
+
+main .central .block .button{
+  display: inline-block;
+  margin: 20px;
+}
+
+main .central .block .block-left{
+ width: 30%;
+ text-align: center;
 }
 
 
