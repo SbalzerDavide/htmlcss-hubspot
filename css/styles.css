@@ -119,10 +119,44 @@ main .results .grid .grid-element{
 /* invitation */
 main .invitation{
   background: #f5f8fa;
-  height: 300px;
-
-
+  height: 500px;
 }
+
+main .invitation .invitation-top::after,
+main .invitation .invitation-bottom::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main .invitation .invitation-top{
+  margin: 0 70px;
+  background: green;
+  height: 100px;
+}
+
+main .invitation .invitation-top .right{
+  float: right;
+  background: blue;
+  width: 500px;
+  height: 100%;
+}
+
+
+
+main .invitation .invitation-bottom{
+  background: #cecece;
+  height: 400px;
+}
+
+main .invitation .invitation-bottom .right{
+  float: right;
+  background: blue;
+  width: 300px;
+  height: 100%;
+}
+
+
 
 
 
@@ -132,4 +166,34 @@ main .invitation{
 footer{
   background: #33475b;
   height: 300px;
+  color: #c2d5e0;
+}
+
+
+/* map */
+footer .map::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer .map .footer-col{
+  width:22%;
+  height: 200px;
+  background: white;
+  float: left;
+  margin-right: 3%;
+}
+
+/* languages */
+footer .languages{
+  margin-top: 20px;
+  background: green;
+  height: 50px;
+}
+
+/* credit */
+footer .credit{
+  height: 20px;
+  background: red;
 }
