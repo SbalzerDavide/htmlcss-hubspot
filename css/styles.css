@@ -395,19 +395,49 @@ main .invitation .invitation-bottom::after{
 
 main .invitation .invitation-top{
   margin: 0 70px;
-  background: green;
-  height: 100px;
+}
+
+main .invitation .invitation-top .left{
+  width: 30%;
+  float: left;
+  padding: 20px;
+}
+
+main .invitation .invitation-top .left .number{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 60px;
+}
+main .invitation .invitation-top .left p{
+  line-height: 25px;
 }
 
 main .invitation .invitation-top .right{
   float: right;
-  background: blue;
-  width: 500px;
-  height: 100%;
+  width: 55%;
+  padding: 40px 0;
+}
+
+main .invitation .invitation-top .right::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+main .invitation .invitation-top .right .partners-icon{
+  width: 25%;
+  height: 30px;
+  float: left;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+main .invitation .invitation-top .right .partners-icon img{
+  width: 100%;
 }
 
 
-
+/* invitation main */
 main .invitation .invitation-bottom{
   background: #cecece;
   height: 400px;
