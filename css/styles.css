@@ -28,8 +28,9 @@ hr{
   background-color: #425b76;
 }
 
-h3{
-  line-height: 70px;
+h4{
+  line-height: 40px;
+  font-size: 15px;
 }
 
 .button{
@@ -234,7 +235,7 @@ main .central .block .block-right p{
   line-height: 60px;
 } */
 
-main .central .block .block-right h3,
+main .central .block .block-right h4,
 main .central .block .block-right hr{
   display: inline-block;
 }
@@ -264,7 +265,7 @@ main .central .col-contenitor::after{
 
 
 main .central .col-contenitor .col{
-  width: 27%;
+  width: 30%;
   padding: 30px 40px;
   /* margin-bottom: 20px; */
   background: white;
@@ -298,12 +299,16 @@ main .central .col-contenitor .col p{
   margin-bottom: 40px;
 }
 
+main .central .col-contenitor .col h4{
+  margin: 20px 0 ;
+}
+
 main .central .col-contenitor .col ul{
   margin-bottom: 50px;
 }
 
 main .central .space{
-  margin: 0 9%;
+  margin: 0 5%;
 }
 
 /* all direct children of section.central have this property */
