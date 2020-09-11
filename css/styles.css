@@ -545,10 +545,46 @@ footer .languages .language-contenitor li a{
 footer .languages .language-contenitor li a:hover{
   color: #007a8c;
 }
-
+footer hr{
+  border: 1px solid #95abb1;
+  background-color: #95abb1;
+}
 
 /* credit */
 footer .credit{
-  height: 20px;
-  background: red;
+  padding: 20px 0;
+}
+
+footer .credit::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer .credit .left{
+  float: left;
+}
+
+footer .credit .right{
+  float: right;
+}
+
+footer .credit .right li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer .credit .right a{
+  line-height: 25px;
+  font-size: 12px;
+  color: #95abb1;
+
+}
+
+footer .credit .right a:hover{
+  color: #007a8c;
+}
+
+footer .credit .copyright{
+  color: white;
 }
