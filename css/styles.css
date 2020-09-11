@@ -320,7 +320,7 @@ main .central > div{
 /* RESULTS */
 main .results{
   background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,188,165,1) 51%);
-  height: 700px;
+  /* height: 700px; */
   color: white;
 }
 
@@ -348,13 +348,13 @@ main .results .grid{
   clear: both;
   width: 100%;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 main .results .grid .grid-element{
   width: 25%;
   height: 150px;
-  background: red;
-  border: 1px solid black;
+  /* border: 1px solid white; */
   float: left;
   padding: 20px;
 }
@@ -372,6 +372,13 @@ main .results .grid .grid-element .sub-grid{
   font-size: 10px;
 }
 
+main .results .grid .bottom-border{
+  border-bottom: 1px solid white;
+}
+
+main .results .grid .right-border{
+  border-right: 1px solid white;
+}
 
 /* invitation */
 main .invitation{
