@@ -28,6 +28,10 @@ hr{
   background-color: #425b76;
 }
 
+h2{
+  padding: 20px 0;
+}
+
 h4{
   line-height: 40px;
   font-size: 15px;
@@ -176,10 +180,6 @@ main .central img{
   margin-top: 40px;
 }
 
-main .central h2{
-  margin: 20px 0;
-}
-
 main .top-central p{
   margin: auto;
   width: 80%;
@@ -222,7 +222,7 @@ main .central .block .block-right{
   right: 0;
 }
 
-main .central .block .block-right h2{
+main .central .block .block-right h3{
   line-height: 60px;
 }
 
@@ -238,6 +238,7 @@ main .central .block .block-right p{
 main .central .block .block-right h4,
 main .central .block .block-right hr{
   display: inline-block;
+  margin: 20px 0;
 }
 main .central .block .block-right .two-elements{
   position: relative;
@@ -328,6 +329,15 @@ main .results p{
   text-align: center;
 }
 
+main .results h2{
+  width: 80%;
+  margin: auto;
+}
+
+main .results p{
+  margin-bottom: 20px;
+}
+
 
 /* grid */
 
@@ -337,6 +347,7 @@ main .results .grid{
   display: table;
   clear: both;
   width: 100%;
+  text-align: center;
 }
 
 main .results .grid .grid-element{
@@ -345,8 +356,21 @@ main .results .grid .grid-element{
   background: red;
   border: 1px solid black;
   float: left;
+  padding: 20px;
 }
 
+main .results .grid .grid-element .grid-icon{
+  height: 45px;
+}
+
+main .results .grid .grid-element .number{
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+main .results .grid .grid-element .sub-grid{
+  font-size: 10px;
+}
 
 
 /* invitation */
