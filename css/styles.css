@@ -23,6 +23,11 @@ a{
   color: white;
 }
 
+p{
+  line-height: 25px;
+
+}
+
 hr{
   border: 1px solid #425b76;
   background-color: #425b76;
@@ -42,6 +47,12 @@ h5{
   color: #fff;
 }
 
+.clear-fix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .button{
   border: 2px solid #ff7a59;
   border-radius: 5px;
@@ -53,19 +64,28 @@ h5{
 /* top */
 header{
   font-size: 13px;
+  /* width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 2; */
 }
 
 header .top{
+  /* position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100vw; */
   background: #f5f8fa;
   border-bottom: 1px solid #425b76;
-
 }
 
-header .top::after{
-  content: '';
-  display: table;
-  clear: both;
+header .fixed{
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
+
 
 header .top .left{
   line-height: 30px;
@@ -105,12 +125,7 @@ header .top .right{
 nav{
   background: white;
   position: relative;
-}
-
-nav ul::after{
-  content: '';
-  display: table;
-  clear: both;
+  top: 56px;
 }
 
 nav img{
@@ -126,6 +141,11 @@ nav li{
 
 /* MAIN */
 /* presentation */
+
+main{
+  position: relative;
+  top: 56px;
+}
 
 main .presentation{
   background-image: url('../img/jumbotron.png');
@@ -236,10 +256,6 @@ main .central .block .block-right p{
   margin-right: 60px;
 }
 
-/* main .central .block .block-right h3{
-  line-height: 60px;
-} */
-
 main .central .block .block-right h4,
 main .central .block .block-right hr{
   display: inline-block;
@@ -263,12 +279,6 @@ main .central .block .block-right ul li{
 }
 
 /* COL */
-main .central .col-contenitor::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
 
 main .central .col-contenitor .col{
   width: 30%;
@@ -301,7 +311,6 @@ main .central .col-contenitor .col li{
 }
 
 main .central .col-contenitor .col p{
-  line-height: 30px;
   margin-bottom: 40px;
 }
 
@@ -325,7 +334,6 @@ main .central > div{
 /* RESULTS */
 main .results{
   background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,188,165,1) 51%);
-  /* height: 700px; */
   color: white;
 }
 
@@ -343,14 +351,8 @@ main .results p{
   margin-bottom: 20px;
 }
 
-
 /* grid */
-
-
 main .results .grid{
-  content: '';
-  display: table;
-  clear: both;
   width: 100%;
   text-align: center;
   padding-bottom: 50px;
@@ -359,7 +361,6 @@ main .results .grid{
 main .results .grid .grid-element{
   width: 25%;
   height: 150px;
-  /* border: 1px solid white; */
   float: left;
   padding: 20px;
 }
@@ -391,13 +392,6 @@ main .invitation{
   background: #f5f8fa;
 }
 
-main .invitation .invitation-top::after,
-main .invitation .invitation-bottom::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
 main .invitation .invitation-top{
   margin: 0 70px 50px;;
 }
@@ -414,20 +408,11 @@ main .invitation .invitation-top .left .number{
   font-weight: bold;
   line-height: 60px;
 }
-main .invitation .invitation-top .left p{
-  line-height: 25px;
-}
 
 main .invitation .invitation-top .right{
   float: right;
   width: 55%;
   padding: 40px 0;
-}
-
-main .invitation .invitation-top .right::after{
-  content: '';
-  display: table;
-  clear: both;
 }
 
 main .invitation .invitation-top .right .partners-icon{
@@ -441,7 +426,6 @@ main .invitation .invitation-top .right .partners-icon{
 main .invitation .invitation-top .right .partners-icon img{
   width: 100%;
 }
-
 
 /* invitation main */
 main .invitation .invitation-bottom{
@@ -461,7 +445,6 @@ main .invitation .invitation-bottom .left .small{
 
 main .invitation .invitation-bottom .left p{
   margin-bottom: 40px;
-  line-height: 25px;
 }
 
 main .invitation .invitation-bottom .right{
@@ -478,16 +461,11 @@ main .invitation .invitation-bottom .right img{
 footer{
   background: #33475b;
   color: #c2d5e0;
+  position: relative;
+  top: 56px;
 }
-
 
 /* map */
-footer .map::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
 footer .map .footer-col{
   width:22%;
   float: left;
@@ -519,7 +497,6 @@ footer .map .footer-col .social{
   display: inline-block;
   width: 30px;
 }
-
 
 /* languages */
 footer .languages{
@@ -555,12 +532,6 @@ footer .credit{
   padding: 20px 0;
 }
 
-footer .credit::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
 footer .credit .left{
   float: left;
 }
@@ -578,7 +549,6 @@ footer .credit .right a{
   line-height: 25px;
   font-size: 12px;
   color: #95abb1;
-
 }
 
 footer .credit .right a:hover{
