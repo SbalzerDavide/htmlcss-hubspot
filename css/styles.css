@@ -21,10 +21,14 @@ li{
 a{
   text-decoration: none;
   color: white;
+  line-height: 25px;
+  font-size: 12px;
+
 }
 
 p{
   line-height: 25px;
+  font-size: 16px;
 
 }
 
@@ -39,7 +43,6 @@ h2{
 
 h4{
   line-height: 40px;
-  font-size: 15px;
 }
 
 h5{
@@ -60,21 +63,18 @@ h5{
   color: white;
   padding: 10px;
 }
+
+.small{
+  font-size: 10px;
+}
+
 /* HEADER */
 /* top */
 header{
   font-size: 13px;
-  /* width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 2; */
 }
 
 header .top{
-  /* position: fixed;
-  top: 0;
-  z-index: 2;
-  width: 100vw; */
   background: #f5f8fa;
   border-bottom: 1px solid #425b76;
 }
@@ -165,10 +165,6 @@ main h1{
 
 main .presentation .button{
   display: inline-block;
-}
-
-main .presentation .buttom{
-  font-size: 11px;
 }
 
 main .presentation .left > *{
@@ -283,7 +279,6 @@ main .central .block .block-right ul li{
 main .central .col-contenitor .col{
   width: 30%;
   padding: 30px 40px;
-  /* margin-bottom: 20px; */
   background: white;
   float: left;
   box-shadow: 0px 0px 10px 0px rgba(51,71,91,0.20);
@@ -374,10 +369,6 @@ main .results .grid .grid-element .number{
   margin: 10px 0;
 }
 
-main .results .grid .grid-element .sub-grid{
-  font-size: 10px;
-}
-
 main .results .grid .bottom-border{
   border-bottom: 1px solid white;
 }
@@ -439,7 +430,6 @@ main .invitation .invitation-bottom .left{
 }
 
 main .invitation .invitation-bottom .left .small{
-  font-size: 10px;
   margin: 30px 0;
 }
 
@@ -474,8 +464,6 @@ footer .map .footer-col{
 }
 
 footer .map .footer-col a{
-  line-height: 25px;
-  font-size: 12px;
   color: #95abb1;
 }
 
@@ -514,8 +502,6 @@ footer .languages .language-contenitor li{
   padding: 10px;
 }
 footer .languages .language-contenitor li a{
-  line-height: 25px;
-  font-size: 12px;
   color: #95abb1;
 }
 
@@ -546,8 +532,6 @@ footer .credit .right li{
 }
 
 footer .credit .right a{
-  line-height: 25px;
-  font-size: 12px;
   color: #95abb1;
 }
 
