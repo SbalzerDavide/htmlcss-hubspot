@@ -21,7 +21,7 @@ li{
 a{
   text-decoration: none;
   color: white;
-  line-height: 25px;
+  /* line-height: 25px; */
   font-size: 12px;
 }
 
@@ -46,6 +46,7 @@ h2{
 
 h4{
   line-height: 40px;
+  margin: 20px 0;
 }
 
 h5{
@@ -96,6 +97,13 @@ header .top{
   border-bottom: 1px solid #425b76;
 }
 
+#first{
+  line-height: 25px;
+  line-height: 34px;
+    margin-top: 6px;
+    margin-bottom:0;
+}
+
 header .fixed{
   width: 100vw;
   position: fixed;
@@ -104,16 +112,11 @@ header .fixed{
 }
 
 
-header .top .left{
-  line-height: 30px;
-  margin:10px 0;
-  padding: 0 10px;
-}
-
+header .top .left,
 header .top .right{
   line-height: 30px;
-  margin:10px 10px;
-  padding: 0 10px;
+  margin:10px 0;
+  padding: 0 15px;
 }
 
 header .top li:nth-child(6){
@@ -128,7 +131,6 @@ header .top li:nth-child(5){
 header .top li:nth-child(5) a{
   color: #ff7a59;
   background-color: rgba(0, 0, 0, 0.0);
-
 }
 
 header .top .left{
@@ -159,7 +161,6 @@ nav li{
 
 /* MAIN */
 /* presentation */
-
 main{
   position: relative;
   top: 56px;
@@ -266,7 +267,6 @@ main .central .block .block-right p{
 main .central .block .block-right h4,
 main .central .block .block-right hr{
   display: inline-block;
-  margin: 20px 0;
 }
 main .central .block .block-right .two-elements{
   position: relative;
@@ -316,10 +316,6 @@ main .central .col-contenitor .col li{
 
 main .central .col-contenitor .col p{
   margin-bottom: 40px;
-}
-
-main .central .col-contenitor .col h4{
-  margin: 20px 0 ;
 }
 
 main .central .col-contenitor .col ul{
